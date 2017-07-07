@@ -1,0 +1,9 @@
+*.a
+*.so
+*.so*
+*.o
+*.txt
+bin
+lib
+*/obj
+

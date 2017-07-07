@@ -16,13 +16,14 @@ $ cd /path/to/project
   And do the command below.
 
 ``` bash
+$ cd external
 $ tar xf archives/zlib-1.2.11.tar.gz
 $ cd zlib-1.2.11
 $ ./configure --prefix=`pwd`/build
 $ sudo make
 $ sudo make install
-$ sudo cp -rp build/include `pwd`/../../inc
-$ sudo cp -rp build/lib/{*.a, *.so, *.so.*} `pwd`/../../lib
+$ sudo cp -p build/include/* `pwd`/../../inc
+$ sudo cp -p build/lib/{*.a, *.so, *.so.*} `pwd`/../../lib
 ```
 
   And then make this project.  

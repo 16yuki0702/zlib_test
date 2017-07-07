@@ -3,7 +3,16 @@
 *.so*
 *.o
 *.txt
+*.lo
+*.log
+*.pc
 bin
 lib
 */obj
-
+external/zlib-1.2.11/Makefile
+external/zlib-1.2.11/zconf.h
+external/zlib-1.2.11/build
+external/zlib-1.2.11/example*
+external/zlib-1.2.11/minig*
+src/main.d
+src/test
